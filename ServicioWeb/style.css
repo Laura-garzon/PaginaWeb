@@ -1,0 +1,376 @@
+@font-face {
+    font-family: Duru;
+    src: url(DuruSans-Regular.ttf);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Duru;
+  }
+  
+  header {
+    background-color: #1F366A;
+    padding: 20px;
+    max-height: 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-family: Duru;
+    font-size: 32px;
+    color: white;
+  }
+  /*HEADER final*/
+
+  /*CONTENIDO inicio*/
+  .inicio{
+    margin: 0;
+    display: flex;
+  }
+
+  .inicio form{
+    padding-top: 100px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inicio form label{
+    font-size: 32px;
+    color: #1F366A;
+  }
+
+  .inicio form input{
+    margin-bottom: 50px;
+    width: 700px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    font-size: 24px;
+    border: 2px solid #D9D9D9;
+  }
+
+  .inicio form input[type="submit"] {
+    width: 260px;
+    height: 50px;
+    font-size: 32px;
+    border-radius: 15px;
+    background-color: #3F8AFB;
+    border: 2px solid #3F8AFB;
+    color: white;
+    margin-left: 220px;
+    margin-bottom: 10px;
+  }
+
+  .inicio p{
+    margin-left: 335px;
+    font-size: 32px;
+  }
+
+  .inicio button{
+    width: 260px;
+    height: 50px;
+    font-size: 32px;
+    background-color: white;
+    border: 2px solid white;
+    color: #3F8AFB;
+    margin-left: 220px;
+  }
+
+  .error{
+    background-color: rgba(215, 134, 134, 0.277);
+    color: black;
+    padding: 10px;
+    width: 95%;border-radius: 5px;
+    margin: 20px auto;
+  }
+  /*CONTENIDO final*/
+
+  /*REGISTRO inicial*/
+  .perfil{
+    margin: 0;
+    display: flex;
+  }
+
+  .perfil img{
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    margin: 70px;
+  }
+
+  .perfil form{
+    padding-top: 80px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .perfil form label{
+    font-size: 32px;
+    color: #1F366A;
+  }
+
+  .perfil form input{
+    margin-bottom: 50px;
+    width: 700px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    font-size: 24px;
+    border: 2px solid #D9D9D9;
+  }
+
+  .perfil form input[type="submit"] {
+    width: 260px;
+    height: 50px;
+    font-size: 32px;
+    border-radius: 15px;
+    background-color: #3F8AFB;
+    border: 2px solid #3F8AFB;
+    color: white;
+    margin-left: 220px;
+    margin-bottom: 10px;
+  }
+
+  .perfil button{
+    width: 260px;
+    height: 50px;
+    font-size: 32px;
+    background-color: white;
+    border: 2px solid white;
+    color: #3F8AFB;
+    margin-left: 220px;
+  }
+
+  .perfil form select {
+    margin-bottom: 50px;
+    width: 700px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    font-size: 24px;
+    border: 2px solid #D9D9D9;
+    color: #1F366A;
+    padding: 0 10px;
+}
+
+  /*REGISTRO final*/
+
+  /*SUBIR inicio*/
+  h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #1F366A;
+    font-size: 28px;
+  }
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .botones button {
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 570px;
+    height: 60px;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    margin: 30px;
+  }
+
+  .column button {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  /*SUBIR final*/
+
+  /*CONVPRE inicio*/
+
+  .recomendacion{
+    margin-left: 20px;
+  }
+
+  .documento form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #1F366A;
+    margin-top: 30px;
+  }
+
+  .documento form input[type="text"] {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 800px;
+    height: 30px;
+  }
+
+  .documento form input[type="file"] {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 700px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #D9D9D9;
+    color: #1F366A;
+  }
+
+  .documento button{
+    width: 170px;
+    height: 40px;
+    background-color: #3F8AFB;
+    border: 2px solid #3F8AFB;
+    color: white;
+    border-radius: 5px;
+    margin: 30px;
+    font-size: 16px;
+  }
+
+  .requerimiento {
+    float: left;
+    width: 300px;
+    padding: 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    margin-left: 20px;
+  }
+  
+  .contenedor-requerimiento {
+    background-color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    width: 280px;
+  }
+  
+  .contenedor-requerimiento h3 {
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #1F366A;
+  }
+  
+  .contenedor-requerimiento p {
+    margin-bottom: 7px;
+  }
+
+  /*CONVPRE final*/
+
+
+  /*COMENTARIOS INICIO*/
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  #document-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .document-box {
+    width: 770px; /* Cambia el valor del ancho según tus necesidades */
+    height: 70px;
+    border: 1px solid #ccc;
+    background-color: #D9D9D9;
+    padding: 10px;
+    position: relative;
+    margin: 10px;
+    
+  }
+  
+  .column button {
+    width: 100%;
+  }
+  
+  .download-link {
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+  }
+  
+  .delete-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .download-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: green;
+    cursor: pointer;
+  }
+  
+  .comment-input {
+    display: none;
+    width: 200px;
+    margin-top: 5px;
+  }
+  
+  .comment-button {
+    display: none;
+    margin-top: 5px;
+  }
+  .send-button {
+    display: block;
+    width: 120px;
+    height: 40px;
+    background-color: #1F366A;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    text-decoration: none;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+  }
+  
+  .send-button:hover {
+    background-color: #234691;
+    cursor: pointer;
+  }
+   /*COMENTARIOS final*/
+  

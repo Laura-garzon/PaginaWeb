@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Subir documentos - Convocatoria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <img src="imagenes/logou.png" alt="Logo de la empresa">
+        </div>
+        <h1>Universidad Militar Nueva Granada</h1>
+    </header>
+
+    <div class="recomendacion">
+      <p>*Suba los archivos en formato pdf, en descargar documento encontrar las plantillas que necesite</p>
+    </div>
+    
+    <div class="requerimiento">
+      <div class="contenedor-requerimiento">
+        <h3>Documentos a subir</h3>
+        <p>1. Lista de chequeo</p>
+        <p>2. Copia vinculacion estímulo económico</p>
+        <p>3. Copia de la publicación de la convocatoria</p>
+        <p>4. Copia de resultados finales</p>
+        <p>5. Acta de resultados</p>
+        <p>6. Certificado de estudio</p>
+        <p>7. Carta de presentación</p>
+        <p>8. Declaracion postura</p>
+        <p>9. Cédula a 150%</p>
+        <p>10. Fotocopia carnet estudiantil</p>
+        <p>11. Formato de justificación</p>
+      </div>
+
+    </div>
+    <div class="documento">
+      <form action="postulacionpreg.php" method="POST" enctype="multipart/form-data">
+
+            <label for="ListaChequeo">Lista de chequeo: </label>
+            <input type="file" id="ListaChequeo" name="ListaChequeo[]" multiple required>
+
+            <label for="estimuloEconomico">Copia vinculación estímulo económico: </label>
+            <input type="file" id="estimuloEconomico" name="estimuloEconomico[]" multiple required>
+
+            <label for="publicacionConvocatoria">Copia de la publicación de la convocatoria: </label>
+            <input type="file" id="publicacionConvocatoria" name="publicacionConvocatoria[]" multiple required>
+
+            <label for="resultadosFinales">Copia de resultados finales: </label>
+            <input type="file" id="resultadosFinales" name="resultadosFinales[]" multiple required>
+
+            <label for="actaResultados">Acta de resultados: </label>
+            <input type="file" id="actaResultados" name="actaResultados[]" multiple required>
+
+            <label for="certificadoEstudio">Certificado de estudio: </label>
+            <input type="file" id="certificadoEstudio" name="certificadoEstudio[]" multiple required>
+
+            <label for="cartaPresentacion">Carta de presentación: </label>
+            <input type="file" id="cartaPresentacion" name="cartaPresentacion[]" multiple required>
+
+            <label for="declaracionPostura">Declaración de postura: </label>
+            <input type="file" id="declaracionPostura" name="declaracionPostura[]" multiple required>
+
+            <label for="cedula">Cedula al %150: </label>
+            <input type="file" id="cedula" name="cedula[]" multiple required>
+
+            <label for="carnetEstudiantil">Fotocopia del carnet estudiantil: </label>
+            <input type="file" id="carnetEstudiantil" name="carnetEstudiantil[]" multiple required>
+
+            <label for="justificacion">Formato de justificación: </label>
+            <input type="file" id="justificacion" name="justificacion[]" multiple required>
+
+          <button type="submit">Subir Archivos</button>
+      </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Listado de documentos</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="imagenes/logou.png" alt="Logo">
+    </div>
+    <h1>Universidad Militar Nueva Granada</h1>
+  </header>
+
+  <h2>LISTADO DE DOCUMENTOS</h2>
+  
+  <div id="document-list">
+    <ul>
+      <li>
+        <div class="document-box">
+          <a class="download-link" href="ruta_al_documento1.pdf">Documento 1</a>
+          <span class="delete-icon">x</span>
+          <span class="download-icon">&#x2B07;</span>
+          <input type="text" class="comment-input" placeholder="Agregar comentario">
+          <button class="comment-button">Guardar</button>
+        </div>
+      </li>
+      <li>
+        <div class="document-box">
+          <a class="download-link" href="ruta_al_documento2.pdf">Documento 2</a>
+          <span class="delete-icon">x</span>
+          <span class="download-icon">&#x2B07;</span>
+          <input type="text" class="comment-input" placeholder="Agregar comentario">
+          <button class="comment-button">Guardar</button>
+        </div>
+      </li>
+      <!-- Agrega más elementos li para cada documento -->
+    </ul>
+  </div>
+
+  <script src="comentarios.js"></script>
+</body>
+</html>
